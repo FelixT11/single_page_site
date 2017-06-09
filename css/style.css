@@ -1,0 +1,610 @@
+.container{
+    
+ width:1366px;
+ display: block;
+ margin: 0 auto;    
+}
+
+.navbar{
+ 
+ background-color: #2e2e2e;
+ padding: 15px 35px 25px 5px ;
+}
+
+.travellers{
+ 
+ float: left;
+ margin: 10px 10px 0px 20px;
+ font-family: 'Kaushan Script', cursive;
+ color: #ffffff;
+ font-size: 70px;
+}
+
+
+
+.float-left{
+ 
+ padding-top: 30px;
+ float: left;
+}
+
+.search-float-right{
+ 
+ padding-top: 30px;
+ float: right;
+}
+
+ul {
+    
+ margin: 0;
+ padding: 0px 100px ;   
+}
+
+ul.main-menu li {
+ 
+ position: relative;
+ display: inline-block;
+ font-family: sans-serif;
+ padding: 10px 25px;
+ color: #ffffff;  
+ font-family: 'Oswald', sans-serif;
+ font-size: 25px;
+}
+
+
+.navbar ul.sub-menu {
+ 
+ position: absolute;
+ display: none;
+ top:30px;
+ left:-15px;
+ background-color: #2e2e2e;
+ width: 200px;
+
+}
+ul.sub-menu li {
+    
+ font-family: 'Oswald', sans-serif;
+ font-size: 18px;
+ width: 200px;
+}
+
+ul.main-menu li:hover > ul.sub-menu {
+   
+ display: block;
+}
+
+a{
+    
+ text-decoration: none;
+ color: #ffffff;
+ font-family: 'Oswald', sans-serif;
+ font-size: 25px;  
+}
+
+.clearfix{
+    
+ display: block;
+ width: 100%;
+ clear: both;
+ float: none;
+}
+
+.white {
+ 
+ color: #ffffff;
+}
+
+.white::-webkit-input-placeholder{
+ 
+ color: #ffffff;
+}
+
+
+input.white{
+    
+ border: none;
+ border-bottom: 1px solid #ffffff;
+ background: none;
+ padding:10px 5px;
+}
+
+.fa-search{
+   
+ color: #ffffff;
+}
+
+.banner{
+    
+ width: 1366px;
+ height: 599px;
+ background-image: url('../Images/backpacker_banner.jpg');
+}
+
+.banner{
+    
+ text-align: center;
+}
+
+.banner button{
+    
+ height: 40px;
+ width: 150px;
+ border: none;
+ background-color: #248095;
+ color: #ffffff;
+ font-family:  'Oswald', sans-serif;
+ font-size: 20px;
+ text-align: center;
+}
+
+button:hover {
+    
+ background-color: #1a5f6f;
+}
+
+button:focus{
+    
+ outline: none;
+}
+
+.find-your-trip{
+    
+ margin-right: 150px;
+}
+
+.find-your-trip, .checklist{
+    
+ display: inline-block;
+ margin-top: 30px;
+}
+
+.big-travellers{
+    
+ font-family: 'Kaushan Script', cursive;
+ color: #ffffff;
+ font-size: 196px;  
+ padding-top: 130px;
+}
+
+.sub-title{
+  
+ margin-top: 20px;
+ font-family: 'Oswald', sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+ font-size: 30px;
+ letter-spacing: 5px;
+}
+
+.offers{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #248095;
+ font-size: 100px;
+ text-align: center;
+ margin-top: 60px;
+}
+
+.offer-section{
+    
+ background-color: #D2E6EA;
+ width: 80%;
+ margin: 0 auto;
+ margin-top: 50px;
+}
+
+.travel-offer{
+    
+ width: 100%;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ justify-content: space-around;
+ flex-flow: row wrap;
+}
+
+.offer-section img{
+   
+ margin-top: 50px;
+ width: 300px;
+ height: 300px;
+}
+
+.travel-info-one{
+    
+ box-sizing: border-box;
+ margin-left: 30px;    
+}
+
+.kangaroo{
+    
+ box-sizing: border-box;
+ margin-right: 30px;   
+}
+
+.country-offers{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #248095;
+ font-size: 40px;
+ box-sizing: border-box;
+ margin-left: 40px;
+
+}
+
+.country-list{
+ 
+ margin-left: -30px;
+ width: 500px;
+ box-sizing: border-box;
+ margin-top: 18px;
+}
+
+.country-list li{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #248095;
+ font-size: 20px; 
+ padding: 10px 0px 10px 0px;
+ list-style: disc;
+}
+
+.trip-btn{
+    
+ float: right;
+ box-sizing: border-box;
+ margin-right: 40px;
+ height: 30px;
+ width: 100px;
+ border: none;
+ background-color: #248095;
+ color: #ffffff;
+ font-family:  'Oswald', sans-serif;
+ font-size: 16px;
+}
+
+.travel-box{
+    
+ display: block;
+ background: #ffffff;
+ width: 300px;
+ box-sizing: border-box;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+.sub-article{
+    
+ background-color: #D2E6EA;
+ width: 80%;
+ margin: 0 auto;
+ padding-top: 100px;
+ padding-bottom: 100px;
+}
+
+.rome-img{
+    
+ width: 530px;
+ height: 250px;
+ float: left;
+ margin-right: 30px;
+}
+
+.rome-article{
+ 
+ box-sizing: border-box;
+ margin-left: 55px; 
+ position: relative;
+}
+
+.rome-header{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #248095;
+ font-size: 40px;
+}
+
+.rome-body{
+    
+ box-sizing: border-box;   
+ line-height: 25px;   
+ font-family:  'Oswald', sans-serif;
+ color: #000000;
+ font-size: 16px; 
+ width: 90%;
+ margin-top: 15px;
+}
+
+.rome-btn{
+    
+ box-sizing: border-box;
+ height: 30px;
+ width: 100px;
+ border: none;
+ background-color: #248095;
+ color: #ffffff;
+ font-family:  'Oswald', sans-serif;
+ font-size: 16px;
+ margin-right: 100px;
+ position: absolute;
+ bottom: 25px;
+ right: 450px;
+}
+
+.australia-img{
+  
+ box-sizing: border-box;
+ width: 530px;
+ height: 250px;
+ float: right;
+ margin-left: 30px; 
+ margin-top: 100px;
+}
+
+.australia-article{
+    
+ box-sizing: border-box;
+ margin-right: 55px;
+ margin-left: 55px;
+ position: relative;
+}
+
+.australia-header{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #248095;
+ font-size: 40px;
+}
+
+.australia-body{
+ 
+ line-height: 25px;
+ font-family:  'Oswald', sans-serif;
+ color: #000000;
+ font-size: 16px; 
+ width: 90%;
+ margin-top: 20px; 
+}
+
+.australia-btn{
+ 
+ box-sizing: border-box;
+ margin-right: 40px;
+ height: 30px;
+ width: 100px;
+ border: none;
+ background-color: #248095;
+ color: #ffffff;
+ font-family:  'Oswald', sans-serif;
+ font-size: 16px;
+ position: absolute;
+ right: 10px;
+ bottom: 15px;   
+}
+
+.australia-text{
+    
+ box-sizing: border-box; 
+ padding-top: 90px;
+}
+
+.sub-banner{
+ 
+ width: 1366px;
+ height: 550px;
+ background-image: url('../Images/rio_banner.jpg');   
+}
+
+.city-tours{
+    
+ padding-top: 230px;
+ font-family: 'Oswald', sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+ font-size: 80px;
+ text-align: center;
+}
+
+.reviews{
+ 
+
+ background-color: #D2E6EA;
+}
+
+.white-box{
+ 
+ padding-top: 50px;
+ margin-left: 136.6px;
+ width: 80%;
+ background-color: #ffffff;
+}
+
+.testimonials{
+       
+ font-family:  'Oswald', sans-serif;
+ color: #248095;
+ font-size: 100px;
+ text-align: center;
+ margin-top: 30px;
+ padding-bottom: 60px;
+}
+
+.first {
+    
+ margin-bottom: -15px;
+ box-sizing: border-box;   
+ font-family: 'Oswald', sans-serif; 
+ font-size: 60px;  
+ color: #2e2e2e;
+}
+
+.second{
+  
+ margin-top: 30px;
+ font-family: 'Oswald', sans-serif; 
+ font-size: 60px;  
+ color: #2e2e2e;
+ float: right;
+}
+
+.statement{
+    
+ box-sizing: border-box;
+ line-height: 25px;
+ text-align: center;
+ font-family: 'Oswald', sans-serif; 
+ font-size: 16px;  
+ color: #2e2e2e;
+ padding-top: 50px;
+ padding-left: 30px;
+}
+
+.review-article{
+    
+ width: 100%;
+ display: -webkit-box;
+ display: -moz-box;
+ display: -ms-flexbox;
+ display: -webkit-flex;
+ display: flex;
+ justify-content: space-around;
+ flex-flow: row wrap;
+ padding-bottom: 30px;
+}
+
+.girl-info-one{
+    
+ box-sizing: border-box;
+ margin-left: 30px;    
+}
+
+.says{
+    
+ font-family:  'Oswald', sans-serif;
+ color: #248095;
+ font-size: 40px;
+ box-sizing: border-box;
+ margin-left: 40px;
+}
+
+.review-box{
+ 
+ display: block;
+ background: #ffffff;
+ width: 300px;
+ box-sizing: border-box;
+ padding-top: 30px;
+ padding-bottom: 30px;
+}
+
+.footer-banner{
+     
+ width: 1366px;
+ height: 400px;
+ background-image: url('../Images/contact.jpg');  
+}
+    
+.find-us{
+    
+ padding-top: 60px;
+ font-family: 'Oswald', sans-serif;
+ font-weight: bold;
+ color: #248095;
+ font-size: 100px;
+ text-align: center;
+}
+
+.footer-banner img{
+    
+ display: inline-block;
+ margin-left: 180px;
+ padding-top: 80px;
+ }
+
+.footer-banner img:hover{
+    
+opacity: 0.9;
+}
+
+.blue{
+
+ width: 1366px;
+ height: 200px;
+ background-color: #D2E6EA; 
+}
+
+.blue a{
+
+ display: inline-block;
+ font-family: 'Oswald', sans-serif;
+ font-weight: bold;
+ color: #248095;
+ font-size: 60px;
+}
+
+.blue a:hover{
+    
+    color:  #2e2e2e;  
+}
+
+.phone{
+    
+  float: right;
+  margin-right: 150px;    
+  margin-top: 70px; 
+}
+
+.email{
+    
+  margin-left: 150px;    
+  margin-top: 70px; 
+}
+
+.black{
+ 
+ padding-top: 20px;
+ width: 1366px;
+ height: 100px;
+ background-color: #2e2e2e;   
+}
+
+.terms{
+    
+ box-sizing: border-box;   
+ font-family: 'Oswald', sans-serif;
+ font-weight: thin;
+ color: #ffffff;
+ font-size: 25px; 
+
+}
+
+.copyright{
+  
+ padding-bottom: 50px;
+ box-sizing: border-box;
+ font-family: 'Oswald', sans-serif;
+ font-weight: thin;
+ color: #ffffff;
+ font-size: 16px;  
+}
+
+.black .terms, .copyright{
+    
+ text-align: center;
+ padding: 10px;
+ margin-left: 250px;
+
+}
+
+a.up{
+ 
+ box-sizing: border-box;
+ font-size: 60px;
+ color: #ffffff;
+ float: right;
+ margin-right: 150px;
+ margin-top: 15px;
+}
